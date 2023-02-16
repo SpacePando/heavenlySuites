@@ -3,7 +3,7 @@
 	$USERNAME = "sooi_dbHeavenlySuites";
 	$PASSWORD = "DeBesteS001";
 	$DATABASE = "sooi_dbHeavenlySuites";
-    $id = '';
+  $id = '';
 
     $dbconn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DATABASE);
 
