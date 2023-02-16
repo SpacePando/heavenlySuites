@@ -5,8 +5,8 @@
         <NuxtLink to="/" class="font-bold">Heavenly Suites</NuxtLink>
         <ul class="flex gap-4">
           <li><NuxtLink to="/">Home</NuxtLink></li>
-          <li><NuxtLink to="/about">About</NuxtLink></li>
-          <li><NuxtLink to="/log" class="btn">Account</NuxtLink></li>
+          <li><NuxtLink to="about">About</NuxtLink></li>
+          <li><NuxtLink to="log" class="btn">Account</NuxtLink></li>
         </ul>
       </nav>
     </header>
@@ -26,6 +26,7 @@
   .router-link-exact-active {
     color: #263e77;
   }
+  
 </style>
 
 
