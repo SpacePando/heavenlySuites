@@ -1,5 +1,5 @@
 ﻿<?php
-
+echo "trying to send from sendmail.php";
 // Replace this with your own email address
 $to = 'sooi@vanhaudt.slc-mul.online';
 
