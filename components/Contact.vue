@@ -25,7 +25,7 @@
                         <label for="message" class="block mb-2 text-sm font-medium text-black-900 dark:text-black-400">Bericht</label>
                         <textarea v-model="info.msg" name="message" id="message" rows="6" class="block p-2.5 w-full text-sm text-black-900 bg-black-50 rounded-lg shadow-sm border border-black-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-black-700 dark:border-black-600 dark:placeholder-black-400 dark:text-black dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Schrijf iets naar ons..."></textarea>
                     </div>
-                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" @click="send()">Verzenden</button>
+                    <button type="submit" class="py-3 px-5 text-sm font-medium text-center text-black rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" >Verzenden</button>
       </form>
   </div>
   {{ guests }}
